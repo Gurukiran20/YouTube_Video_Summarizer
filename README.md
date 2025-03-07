@@ -1,2 +1,25 @@
-# YouTube_Video_Summarizer
-A Python-based tool to summarize YouTube videos using transcript analysis and OpenAI's GPT models. Extracts the key points from YouTube videos quickly and easily.
+
+# YouTube Video Transcriber
+
+This project extracts and compiles transcripts from YouTube videos using the `youtube_transcript_api` library. It fetches subtitles directly from a video, cleans up the text, and displays the full transcript in a readable format. This is especially helpful for summarizing video content, studying lectures, or creating text-based resources from video materials.
+
+## How It Works
+1. **Fetch Video ID:** Extracts the unique video ID from the YouTube URL.
+2. **Retrieve Transcript:** Uses the YouTube Transcript API to get the video’s subtitles.
+3. **Combine and Display:** Joins all subtitle text into a single, readable string and prints the full transcript.
+
+## Prerequisites
+- Python 3.8+
+- Libraries: `youtube_transcript_api`
+
+## Future Enhancements
+- Add AI-based summarization using OpenAI’s GPT models.
+- Implement support for multiple languages.
+- Option to save transcripts as text files.
+
+## Conclusion
+The YouTube Video Transcriber is a simple yet effective tool for extracting video subtitles and transforming them into easy-to-read text. It saves time and effort by providing direct access to a video’s content without the need to watch it in its entirety. This project lays a strong foundation for future enhancements like AI-driven summarization and multilingual support.
+
+## Acknowledgments
+- `youtube_transcript_api` library for easy transcript extraction.
+- OpenAI (optional) for potential AI-powered features.

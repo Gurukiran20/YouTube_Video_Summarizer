@@ -16,10 +16,11 @@ This project extracts and compiles transcripts from YouTube videos using the `yo
 - Add AI-based summarization using OpenAI’s GPT models.
 - Implement support for multiple languages.
 - Option to save transcripts as text files.
+## result
+![Screenshot 2025-03-08 021025](https://github.com/user-attachments/assets/2725d08f-30c0-4b18-a4a9-846379132d2d)
 
 ## Conclusion
 The YouTube Video Transcriber is a simple yet effective tool for extracting video subtitles and transforming them into easy-to-read text. It saves time and effort by providing direct access to a video’s content without the need to watch it in its entirety. This project lays a strong foundation for future enhancements like AI-driven summarization and multilingual support.
 
-## Acknowledgments
-- `youtube_transcript_api` library for easy transcript extraction.
-- OpenAI (optional) for potential AI-powered features.
+
+
